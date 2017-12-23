@@ -11,17 +11,27 @@
 }
 
 .footer {
-    background-color: #D1C4E9;
+    background: rgb(56, 41, 21);
+    background: -moz-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,rgb(56, 41, 21)),color-stop(100%,#f0d852));
+    background: -webkit-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
+    background: -o-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
+    background: -ms-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
+    background: linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(56, 41, 21), endColorstr=#f0d852, GradientType=1);
     margin: 0px auto;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
+
 .jumbotron {
+
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #9575CD;
+    background-image: url(../img/jumbotron-back.png);
+    background-position:center center;
     color: floralwhite;
-}
+    }
 
 .address {
     font-size: 80%;
@@ -35,7 +45,10 @@ body {
 }
 
 .navbar-inverse {
-    background-color: #512DA8;
+    background-image: url(../img/navbar-back2.png);
+    background-position:center center;
+    color: #0f0f0f;
+    text-decoration: none;
 }
 
 .tab-content {
@@ -58,4 +71,10 @@ body {
     top: 0;
     left: 0;
     min-height: 300px
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
