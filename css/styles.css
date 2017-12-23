@@ -91,3 +91,8 @@ body {
     max-width: 100%;
 }
 
+#carousel-button {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
