@@ -5,20 +5,20 @@
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .footer {
-    background: rgb(56, 41, 21);
-    background: -moz-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
-    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,rgb(56, 41, 21)),color-stop(100%,#f0d852));
-    background: -webkit-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
-    background: -o-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
-    background: -ms-linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
-    background: linear-gradient(45deg,rgb(56, 41, 21) 0,#f0d852 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(56, 41, 21), endColorstr=#f0d852, GradientType=1);
+    background: rgb(61, 42, 17);
+    background: -moz-linear-gradient(45deg,rgb(61, 46, 17) 0,#318f73 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,rgb(61, 42, 17)),color-stop(100%,rgb(250, 168, 51)));
+    background: -webkit-linear-gradient(45deg,rgb(61, 42, 17) 0,rgb(250, 168, 51) 100%);
+    background: -o-linear-gradient(45deg,rgb(61, 42, 17) 0,rgb(250, 168, 51) 100%);
+    background: -ms-linear-gradient(45deg,rgb(61, 42, 17) 0,rgb(250, 168, 51) 100%);
+    background: linear-gradient(45deg,rgb(61, 42, 17) 0,rgb(250, 168, 51) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(61, 42, 17), endColorstr=rgb(250, 168, 51), GradientType=1);
     margin: 0px auto;
     padding: 20px 0px 0px 0px;
 }
@@ -45,10 +45,22 @@ body {
 }
 
 .navbar-inverse {
-    background-image: url(../img/navbar-back2.png);
-    background-position:center center;
+    background: rgb(16, 9, 0);
+    background: -moz-linear-gradient(45deg,rgb(16, 9, 0) ,rgb(250, 168, 51) 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,rgb(16, 9, 0)),color-stop(100%,rgb(250, 168, 51)));
+    background: -webkit-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: -o-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: -ms-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(16, 9, 0), endColorstr=rgb(250, 168, 51), GradientType=1);
     color: #0f0f0f;
     text-decoration: none;
+}
+
+.navbar-inverse:after {
+    background: url(
+    ) repeat center center;
+    opacity: .4;
 }
 
 .tab-content {
@@ -78,3 +90,4 @@ body {
     height: auto;
     max-width: 100%;
 }
+
