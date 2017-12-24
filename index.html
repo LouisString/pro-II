@@ -8,11 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <!-- endbuild -->
     <title>Tree Hole</title>
 </head>
 
@@ -23,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                 <img src="img/icon.png" height="35" width="41">
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
@@ -328,26 +329,12 @@
         </footer>
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="node_modules/jquery/jquery.min.js"></script>
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-        $("#carousel-button").click(function () {
-            if ($("#carousel-button").children("span").hasClass('fa-pause')) {
-                $("#mycarousel").carousel('pause');
-                $("#carousel-button").children("span").removeClass('fa-pause');
-                $("#carousel-button").children("span").addClass('fa-play');
-            }
-            else if ($("#carousel-button").children("span").hasClass('fa-play')) {
-                $("#mycarousel").carousel('cycle');
-                $("#carousel-button").children("span").removeClass('fa-play');
-                $("#carousel-button").children("span").addClass('fa-pause');
-            }
-        });
-
-    </script>
-
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 
