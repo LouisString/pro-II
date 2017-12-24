@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Ristorante Con Fusion: About Us</title>
+    <title>Tree Hole: Zone</title>
 
 </head>
 
@@ -24,54 +24,86 @@
             </button>
 
             <a class="navbar-brand" href="#">
-                <img src="img/icon.png" height="41" width="41">
+                <img src="img/icon.png" height="35" width="41">
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="./index.html">
                             <span class="fa fa-home"></span>
-                            <font face="Microsoft YaHei"> <font size="4"> 洞口</font></font>
+                            <font size="4"> 洞口</font>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./secrets.html">
-                            <span class="fa fa-info"></span>
-                            <font face="Microsoft YaHei"> <font size="4"> 聆听</font></font>
+                            <span class="fa fa-first-order"></span>
+                            <font size="4"> 聆听</font>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./confide.html">
-                            <span class="fa fa-list"></span>
-                            <font face="Microsoft YaHei"> <font size="4"> 吐露</font></font>
+                            <span class="fa fa-pencil"></span>
+                            <font size="4"> 吐露</font>
                         </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./zone.html">
-                            <span class="fa fa-address-card"></span> 
-                            <font face="Microsoft YaHei"> <font size="4"> 禅境</font></font>
+                    <li class="nav-item  active">
+                        <a class="nav-link" href="#">
+                            <span class="fa fa-map-marker"></span>
+                            <font size="4"> 禅境</font>
                         </a>
                     </li>
                 </ul>
                 <span class="navbar-text">
                     <a data-toggle="modal" data-target="#loginModal">
-                        <span class="fa fa-sign-in"></span> 
-                        <font face="Microsoft YaHei"> <font size="4"> 登录</font></font>
+                        <span class="fa fa-sign-in"></span>
+                        <font size="4">登陆</font>
                     </a>
                 </span>
             </div>
         </div>
     </nav>
-
-    <header class="jumbotron">
-        <div class="container">
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Log in</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail3"></label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="邮箱">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword3"></label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="密码">
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> 记住密码
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-default btn-sm" data-dismiss="modal">返回</a>
+                    <a type="submit" class="btn btn-primary btn-sm">确认</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container  jumbotron">
             <div class="row row-header">
                 <div class="col-12 col-sm-3 align-self-center">
-                    <img src="img/secrets-logo.png" class="img-responsive">
+                    <img src="img/zone-logo.png" class="img-responsive">
                 </div>
                 <div class="col col-sm align-self-center">
-                    <font face="FangSong" size="5">聆听愧罪、忧伤、孤独而温柔的呓语，
-                        <br><font size="4"> </font>吐露躁动、焦虑、悲戚却珍藏的年华。</font>
+                    <font face="FangSong" size="5">情思纯澈，宕动起伏
+                        <br> 观心顿悟，万象如初
+                    </font>
                 </div>
             </div>
         </div>
@@ -83,153 +115,285 @@
                 <ol class="col-12 breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="./index.html">
-                            <font face="Microsoft YaHei"><font size="4"> 洞口</font></font>
+                            <font size="4"> 洞口</font>
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <font face="Microsoft YaHei"><font size="4"> 禅境</font></font>
+                        <font size="4"> 禅境</font>
                     </li>
                 </ol>
             </div>
         </div>
 
-        <div class="row row-content">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-header" style="background-color:brown">
-                    </div>
-                    <div class="card-block">
-                        <div class="media">
-                            <div class="media-body">
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <h2 class="mt-0"> 
-                                            树洞 1
-                                        </h2>
-                                        <p class="hidden-xs-down">
-                                            <font face="Microsoft YaHei" size="4">我一生之中最幸运的两件事情。
-                                                <br>一件是 时间终于将我对你的爱情消耗殆尽，
-                                                <br>一件是 很久很久以前有一天，我遇见了你。</font>
-                                        </p>
-                                    </div>
-                                    <div class="col-sm  align-self-center">
-                                        <img class="img-responsive" src="img/yellow-leaf.png" width="200%">
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Marketing messaging and featurettes
+    ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="container">
+                <div class=" marketing">
+                    <!-- Three columns of text below the carousel -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="rounded-circle mx-auto d-block" src="img/painful.png" alt="Generic placeholder image" width="140" height="140">
+                            <h2 class="text-center">发泄</h2>
+                            <font face="Microsoft YaHei" class="text-center">
+                                <p>没有人的世界没有坎坷，
+                                    <br>没有人的世界没有寒冷。
+                                    <br>如果需要的话，请来发泄吧，
+                                    <br>我们拥抱你的泪水，
+                                    <br>你的愤怒与纠葛</p>
+                            </font>
                         </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" style="background-color:rgb(196, 112, 63)">
-                    </div>
-                    <div class="card-block">
-                        <div class="media">
-                            <div class="media-body">
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <h2 class="mt-0"> 树洞 2
-                                        </h2>
-                                        <p class="hidden-xs-down">
-                                            <font face="Microsoft YaHei" size="4">都说考研的时候是最紧张的，
-                                                可感觉未来的生活却变得更加迷茫。 多年的梦想突然变得那么遥远，
-                                                身边的人与事都变得陌生，似乎我更像是一个旁观者，感觉日子循环往复，
-                                                偏偏我在原地踏步，四周都是悬崖，就连空气也让我窒息，我只想知道，
-                                                此时此刻，我该走向哪里。。。
-                                            </font>
-                                        </p>
-                                    </div>
-                                    <div class="col-sm align-self-center">
-                                        <img class="img-responsive" src="img/brown-leaf.png" width="100%">
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <img class="rounded-circle  mx-auto d-block" src="img/rethink.png" alt="Generic placeholder image" width="140" height="140">
+                            <h2 class="text-center">反思</h2>
+                            <font face="Microsoft YaHei" class="text-center">
+                                <p>生活的节奏迅速而沉重，
+                                    <br>过往的错误割下难愈的伤口。
+                                    <br>如果情绪已经平复，
+                                    <br>不妨 反思自己迷失的因果，
+                                    <br>抒写灰色的回忆与愧疚</p>
+                            </font>
                         </div>
+                        <!-- /.col-sm-4 -->
+                        <div class="col-sm-4">
+                            <img class="rounded-circle  mx-auto d-block" src="img/regain.png" alt="Generic placeholder image" width="140" height="140">
+                            <h2 class="text-center">重塑</h2>
+                            <font face="Microsoft YaHei" class="text-center">
+                                <p>走出迷雾，获得新生。
+                                    <br>不要忘却此时的希望，
+                                    <br>也不要忘记彼时的苦痛。
+                                    <br>如果你曾得到别人的安慰，
+                                    <br>请将这份温暖
+                                    <br>传给下一位陌生的旅者</p>
+                            </font>
+                        </div>
+                        <!-- /.col-sm-4 -->
                     </div>
+                    <!-- /.row -->
                 </div>
-            </div>
-        </div>
+                
 
-        <div class="row row-content">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-header" style="background-color:goldenrod">
-                    </div>
-                    <div class="card-block">
-                        <div class="media">
-                            <div class="media-body">
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <h2 class="mt-0"> 树洞 3
-                                        </h2>
-                                        <p class="hidden-xs-down">
-                                            <font face="Microsoft YaHei" size="4">你们突然来了又突然消失，连时间都泛不起一丝涟漪。 如果可以我希望离你们远远的，最好就此再也无交集。不怕没人陪伴，我痛恨来了又走。
-                                            </font>
-                                        </p>
-                                    </div>
-                                    <div class="col-sm  align-self-center">
-                                        <img class="img-responsive" src="img/yellow-leaf.png" width="200%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- START THE FEATURETTES -->
 
-                <div class="card">
-                    <div class="card-header" style="background-color:rgb(250, 220, 49)">
-                    </div>
-                    <div class="card-block">
-                        <div class="media">
-                            <div class="media-body">
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <h2 class="mt-0"> 树洞 4
-                                        </h2>
-                                        <p class="hidden-xs-down">
-                                            <font face="Microsoft YaHei" size="4">后悔药有得吃吗？辗转反侧彻夜难眠悔不当初推开你。
-                                                你明知我是一时冲动的人，为什么不能宽容我一下。愧疚难当，连一句求你原谅都不敢说出口。
-                                                </font>
-                                        </p>
-                                    </div>
-                                    <div class="col-sm align-self-center">
-                                        <img class="img-responsive" src="img/yellow-leaf.png" width="200%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-content">
-            <div class="col-12">
-                <div class="card card-block bg-faded">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">你的地图是一张白纸，所以即使想决定目的地，也不知道路在哪里。
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">2017-11-06
+                            <span class="text-muted"> 低沉,失落</span>
+                        </h2>
+                        <p class="lead">我的第一个树洞
                         </p>
-                        <footer class="blockquote-footer">东野圭吾,
-                            <cite title="Source Title">《解忧杂货店》</cite>
-                        </footer>
-                    </blockquote>
+                        <img src="img/comic-1.png" width="45%">
+                    </div>
+                    <div class="col-md-5 align-self-center">
+                            <div class="card">
+                                    <div class="card-header" style="background-color:brown">
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="media">
+                                            <div class="media-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h2 class="mt-0">
+                                                            Hole 1
+                                                        </h2>
+                                                        <p class="hidden-xs-down">
+                                                            <font face="Microsoft YaHei" size="4">原来喜欢不可以伪装，原来快乐不可以假装，原来永远和瞬间一样。你能看到我留在屏幕上的字，你看不到我流在键盘上的眼泪</font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 push-md-5">
+                        <h2 class="featurette-heading">2017-11-13
+                            <span class="text-muted"> 平静,想哭</span>
+                        </h2>
+                        <p class="lead">我的第二个树洞    
+                        </p>
+                        <img src="img/comic-2.png" width="45%">
+                        <img src="img/comic-2-2.png" width="45%">
+                    </div>
+                    <div class="col-md-5 pull-md-7  align-self-center">
+                            <div class="card">
+                                    <div class="card-header" style="background-color:rgb(250, 220, 49)">
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="media">
+                                            <div class="media-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h2 class="mt-0"> Hole 2
+                                                        </h2>
+                                                        <p class="hidden-xs-down">
+                                                            <font face="Microsoft YaHei" size="4">后悔药有得吃吗？辗转反侧彻夜难眠悔不当初推开你。 你明知我是一时冲动的人，为什么不能宽容我一下。愧疚难当，连一句求你原谅都不敢说出口。
+                                                            </font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">2017-12-15
+                            <span class="text-muted"> 慰藉,空明</span>
+                        </h2>
+                        <p class="lead">我的第三个树洞
+                        </p>
+                        <img src="img/comic-3.png" width="45%">
+                        <img src="img/comic-4.png" width="45%">
+                    </div>
+                    <div class="col-md-5  align-self-center">
+                            <div class="card">
+                                    <div class="card-header" style="background-color:rgb(214, 253, 42)">
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="media">
+                                            <div class="media-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h2 class="mt-0"> Hole 3
+                                                        </h2>
+                                                        <p class="hidden-xs-down">
+                                                            <font face="Microsoft YaHei" size="4">你的微笑辇过的每个夏天，深深的车辙印子，成了我心里永不会愈合的伤。当眼泪流下来，终于知道，分开也是另一种明白。
+                                                            </font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+            </div>
+            <!-- /END THE FEATURETTES -->
+
+ 
+            <div class="row row-content">
+                <div class="col-12">
+                    <div class="card card-block bg-faded">
+                        <blockquote class="blockquote">
+                            <font face="FangSong">
+                            <p class="mb-0">你的地图是一张白纸，所以即使想决定目的地，也不知道路在哪里。
+                            </p>
+                            <footer class="blockquote-footer">东野圭吾,
+                                <cite title="Source Title">《解忧杂货店》</cite>
+                            </footer>
+                        </font>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 offset-1 col-sm-2">
+                            <h5 class="offset-2"><font style="color:rgb(209, 144, 58)">Links</font></h5>
+                            <ul class="list-un">
+                                <li>
+                                    <a href="./index.html">
+                                        <font style="color:antiquewhite">洞口</font>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./secrets.html">
+                                        <font style="color:antiquewhite">聆听</font>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./confide.html">
+                                        <font style="color:antiquewhite">吐露</font>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <font style="color:antiquewhite">禅境</font>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-5">
+                            <h5><font style="color:rgb(209, 144, 58)">Our Address</font></h5>
+                            <address>
+                                <font style="color:antiquewhite">
+                                    SJTU SE 2017
+                                    <br> MinHang, ShangHai
+                                    <br> China
+                                    <br>
+                                </font>
+                            </address>
+                        </div>
+                        <div class="col-sm align-self-center">
+                            <div style="text-align:center">
+                                <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                                <a class="btn btn-social-icon" href="mailto:">
+                                    <i class="fa fa-envelope-o"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <p>© Copyright 2017 Tree Hole</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
         </div>
 
 
-
-    </div>
-
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="node_modules/jquery/jquery.min.js"></script>
-    <script src="node_modules/tether/dist/js/tether.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="node_modules/jquery/jquery.min.js"></script>
+        <script src="node_modules/tether/dist/js/tether.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+        </script>
+        <script>
+            $(function () {
+                Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+            });
+        </script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>
