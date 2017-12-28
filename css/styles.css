@@ -1,0 +1,105 @@
+
+@font-face {
+    /* font-properties */
+    font-family: 'QingTing';
+    src:url('../fonts/QingTing.ttf'); 
+}
+body
+{
+    font-family:'QingTing';
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px ridge;
+    border-bottom-color:gainsboro;
+}
+
+.footer {
+    background-image: url("../img/footer-back.png");
+ 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(61, 42, 17), endColorstr=rgb(250, 168, 51), GradientType=1);
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.jumbotron {
+
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(16, 9, 0), endColorstr=rgb(250, 168, 51), GradientType=1);
+    background-image: url(../img/jumbotron-back.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+    color: floralwhite;
+    }
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-inverse {
+    background: rgb(16, 9, 0);
+    background: -moz-linear-gradient(45deg,rgb(16, 9, 0) ,rgb(250, 168, 51) 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,rgb(16, 9, 0)),color-stop(100%,rgb(250, 168, 51)));
+    background: -webkit-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: -o-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: -ms-linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    background: linear-gradient(45deg,rgb(16, 9, 0),rgb(250, 168, 51) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(16, 9, 0), endColorstr=rgb(250, 168, 51), GradientType=1);
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+.navbar-inverse:after {
+    background: url(
+    ) repeat center center;
+    opacity: .4;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background: rgb(178, 187, 163);
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+#carousel-button {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
